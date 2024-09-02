@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    width: 100%;
+    background-color: hsl(206, 94%, 87%);
+}
+.step-one{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    background-color: white;
+    padding: .8rem;
+    border-radius: 10px;
+}
+.step-one-container{    
+    display: flex;
+    gap: 5rem;
+}
+.sidebar-img{
+    position: relative;
+    display: block;
+}
+.step-section-parent{
+    position: absolute;
+    top: 7rem;
+    margin-left: 2rem;
+    color: white;
+}
+.step-section{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.info{
+    padding-top: 3rem;
+}
+.info h1{
+    padding-bottom: 1rem;
+}
+.info p{
+    padding-bottom: 2.5rem;
+}
+.info label{
+    padding-bottom: .5rem;
+    display: block;
+}
+.info input{
+    width: 100%;
+    height: 2.3rem;
+    margin-bottom: 1rem;
+}
+.info input[placeholder]{
+    padding: 1rem;
+}
+.info input:last-child{
+    width: 25%;
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-top: 7rem;
+    margin-left: 80%;
+}
+.number{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem .8rem .5rem .8rem;
+}
+.number:hover{
+    background-color: hsl(206, 94%, 87%);
+    color: black;
+}
